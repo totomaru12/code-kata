@@ -6,6 +6,6 @@ https://codingdojo.org/kata/Bowling/
 $ cd ./bowling
 $ python -m unittest discover -v
 ```
-# enviroment
+# environment
 - Python 3.4.3
 - macOS 10.x
