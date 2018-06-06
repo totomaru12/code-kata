@@ -1,9 +1,6 @@
-# bowling
-https://codingdojo.org/kata/Bowling/
-
 # test
 ```
-$ cd ./bowling
+$ cd ./kata-name/yymmdd
 $ python -m unittest discover -v
 ```
 

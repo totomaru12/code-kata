@@ -1,4 +1,9 @@
-/*/__pycache__/*
+# common
+/.vscode/*
+
+# python
 /*/*/__pycache__/*
 /*/*/*/__pycache__/*
-/.vscode/*
+
+# javascript
+/*/node_modules/*
