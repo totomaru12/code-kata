@@ -1,4 +1,5 @@
-import Bowling from './bowling_180606';
+import Boling from './bowling_180607';
+import Bowling from './bowling_180607';
 
 const assert = require('assert');
 
@@ -11,7 +12,7 @@ beforeEach(function () {
     bowling = new Bowling();
 })
 
-describe('test bowling game 180606', function () {
+describe('test bowling game 180607', function () {
 
     it('all strike', function () {
         bowling.rollMany(12, 10);
@@ -19,16 +20,15 @@ describe('test bowling game 180606', function () {
     });
 
     it('all nines', function () {
-        for (let frame = 1; frame <= 10; frame++) {
+        for (let frame = 0; frame < 10; frame++) {
             bowling.roll(9);
             bowling.roll(0);
         }
         assert.equal(90, bowling.score());
-    });
+    })
 
-    it('all spare', function () {
+    it('all spare', function() {
         bowling.rollMany(21, 5);
-        assert.equal(150, bowling.score())
+        assert.equal(150, bowling.score());
     });
-    
 });
