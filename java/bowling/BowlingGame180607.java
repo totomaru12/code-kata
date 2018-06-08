@@ -1,4 +1,6 @@
-public class BowlingGame {
+import java.util.ArrayList;
+
+public class BowlingGame180607 {
     
     private int currentRoll = 0;
     private ArrayList<Integer> rolls = new ArrayList<Integer>();
@@ -22,25 +24,26 @@ public class BowlingGame {
                 frameIndex += 2;
             }
         }
+        return currentScore;
     }
 
     private boolean isSpare(int frameIndex) {
-        return (this.rolls[frameIndex] + this.rolls[frameIndex + 1]) == 10;
+        return (this.rolls.get(frameIndex) + this.rolls.get(frameIndex + 1)) == 10;
     }
 
     private boolean isStrike(int frameIndex) {
-        return this.rolls[frameIndex] == 10
+        return this.rolls.get(frameIndex) == 10;
     }
 
     private int spareBonus(int frameIndex) {
-        return this.rolls[frameIndex + 2];
+        return this.rolls.get(frameIndex + 2);
     }
 
     private int strikeBonus(int frameIndex) {
-        return this.rolls[frameIndex + 1] + this.rolls[frameIndex + 2]
+        return this.rolls.get(frameIndex + 1) + this.rolls.get(frameIndex + 2);
     }
 
     private int sumOfPins(int frameIndex) {
-        return this.rolls[frameIndex] + this.rolls[frameIndex + 1];
+        return this.rolls.get(frameIndex) + this.rolls.get(frameIndex + 1);
     }
 }

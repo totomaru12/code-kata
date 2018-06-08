@@ -4,12 +4,12 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-public class BowlingGameTest {
-    private BowlingGame game;
+public class BowlingGame180607Test {
+    private BowlingGame180607 game;
 
     @Before
     public void setUp() throws Exception {
-        this.game = new BowlingGame();
+        this.game = new BowlingGame180607();
     }
 
     @After
