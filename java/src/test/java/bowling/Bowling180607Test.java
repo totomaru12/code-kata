@@ -4,17 +4,17 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-public class BowlingGame180607Test {
-    private BowlingGame180607 game;
+public class Bowling180607Test {
+    private Bowling180607 game;
 
     @Before
     public void setUp() throws Exception {
-        this.game = new BowlingGame180607();
+        this.game = new Bowling180607();
     }
 
     @After
-    public void tearDown() throws Expection {
-
+    public void tearDown() throws Exception {
+        
     }
 
     private void rollFrameWithNumPins(int numRolls, int numPins1st, int numPins2nd) {
