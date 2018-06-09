@@ -6,10 +6,8 @@
 
 assert "echo test" "test"
 
+# TODO: renew to full game test code
 add_score 1 2
-
-# total_socre
-
 assert total_socre "3" 
 
 assert_end
