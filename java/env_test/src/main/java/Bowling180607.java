@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class BowlingGame180607 {
+public class Bowling180607 {
     
     private ArrayList<Integer> rolls = new ArrayList<Integer>();
 
