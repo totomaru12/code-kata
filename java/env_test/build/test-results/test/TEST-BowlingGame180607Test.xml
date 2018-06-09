@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="BowlingGame180607Test" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-06-09T02:50:34" hostname="totonoMacBook" time="0.006">
+  <properties/>
+  <testcase name="allStrikes" classname="BowlingGame180607Test" time="0.002"/>
+  <testcase name="appSpares" classname="BowlingGame180607Test" time="0.0"/>
+  <testcase name="allNines" classname="BowlingGame180607Test" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
