@@ -4,9 +4,9 @@
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-public class BowlingAppTest {
+public class CodeKataTest {
     @Test public void testAppCreation() {
-        BowlingAppTest classUnderTest = new BowlingAppTest();
+        CodeKataTest classUnderTest = new CodeKataTest();
         assertNotNull(classUnderTest);
     }
 }
