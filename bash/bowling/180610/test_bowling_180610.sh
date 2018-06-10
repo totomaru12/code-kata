@@ -11,7 +11,7 @@ roll_many() {
 
 reset_score
 roll_many 12 10 0
-assert total_socre "300" 
+assert total_socre "300"
 
 reset_score
 roll_many 10 9 0
