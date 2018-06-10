@@ -4,8 +4,8 @@ https://github.com/lehmannro/assert.sh
 
 # test
 ```
-$ cd ./kata-name/yymmdd
-$ python -m unittest discover -v
+$ cd ./xxx/yymmdd/
+$ ./test_*.sh
 ```
 
 # environment
