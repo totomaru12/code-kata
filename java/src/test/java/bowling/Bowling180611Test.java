@@ -29,4 +29,19 @@ public class Bowling180611Test {
         this.rollMany(12, 10);
         assertEquals(300, this.game.score());
     }
+
+    @Test
+    public void allNines() {
+        for (int i = 0; i < 10; i++) {
+            this.rollMany(10, 9);
+            this.rollMany(10, 0);
+        }
+        assertEquals(90, this.game.score());
+    }
+
+    @Test
+    public void allSpares() {
+        this.rollMany(150, 5);
+        assertEquals(150, this.game.score());
+    }
 }

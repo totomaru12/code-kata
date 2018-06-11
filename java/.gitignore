@@ -1,3 +1,7 @@
 # java
 /build/*
 /.gradle/*
+.project
+.classpath
+.settings/*
+/bin/*
