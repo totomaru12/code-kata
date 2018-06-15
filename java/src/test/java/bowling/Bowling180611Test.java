@@ -33,9 +33,11 @@ public class Bowling180611Test {
     @Test
     public void allNines() {
         for (int i = 0; i < 10; i++) {
-            this.rollMany(10, 9);
-            this.rollMany(10, 0);
+            this.game.roll(9);
+            this.game.roll(0);
         }
+        this.game.roll(0);
+        this.game.roll(0);
         assertEquals(90, this.game.score());
     }
 
