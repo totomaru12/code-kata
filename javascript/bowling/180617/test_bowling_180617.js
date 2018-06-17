@@ -18,7 +18,7 @@ beforeEach(function() {
 describe('test bowling game 180617', function() {
 
     it('all strike', function() {
-        bowling.rollMany(12, 10);
+        bowling.rollMany(12, bowling.SCORE_MAX_PER_FRAME());
         assert.equal(300, bowling.score());
     })
 
@@ -28,7 +28,7 @@ describe('test bowling game 180617', function() {
     })
 
     it('all nines', function() {
-        for (let frame = 0; frame < 10; frame++) {
+        for (let frame = 0; frame < bowling.FRAME_COUNT_MAX(); frame++) {
             bowling.roll(9);
             bowling.roll(0);
         }

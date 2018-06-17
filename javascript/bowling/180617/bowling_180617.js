@@ -4,16 +4,24 @@ export default class bowling {
         this.rolls = []
     }
 
+    SCORE_MAX_PER_FRAME() {
+        return 10;
+    }
+
+    FRAME_COUNT_MAX() {
+        return 10;
+    }
+
     roll(pins) {
         this.rolls.push(pins);
     }
 
     isStrike(rollIndex) {
-        return (10 == this.rolls[rollIndex]);
+        return (this.SCORE_MAX_PER_FRAME() == this.rolls[rollIndex]);
     }
 
     isSpare(rollIndex) {
-        return (10 == this.rolls[rollIndex] + this.rolls[rollIndex + 1]);
+        return (this.SCORE_MAX_PER_FRAME() == this.rolls[rollIndex] + this.rolls[rollIndex + 1]);
     }
 
     strikeBonus(rollIndex) {
@@ -27,12 +35,12 @@ export default class bowling {
     score() {
         let totalScore = 0;
         let rollIndex = 0;
-        for (let frame = 0; frame < 10; frame ++) {
+        for (let frame = 0; frame < this.FRAME_COUNT_MAX(); frame ++) {
             if (this.isStrike(rollIndex)) {
-                totalScore += (10 + this.strikeBonus(rollIndex));
+                totalScore += (this.SCORE_MAX_PER_FRAME() + this.strikeBonus(rollIndex));
                 rollIndex += 1;
             } else if (this.isSpare(rollIndex)) {
-                totalScore += (10 + this.spareBonus(rollIndex));
+                totalScore += (this.SCORE_MAX_PER_FRAME() + this.spareBonus(rollIndex));
                 rollIndex += 2;
             } else {
                 totalScore += (this.rolls[rollIndex] + this.rolls[rollIndex + 1]);
