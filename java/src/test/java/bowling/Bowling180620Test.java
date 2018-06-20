@@ -25,7 +25,7 @@ public class Bowling180620Test {
 
     @Test
     public void allStrikes() {
-        this.rollMany(12, 10);
+        this.rollMany(12, Bowling180620.MAX_SCORE_IN_FRAME);
         assertEquals(300, this.game.score());
     }
 
@@ -37,7 +37,7 @@ public class Bowling180620Test {
 
     @Test
     public void allNines() {
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < Bowling180620.NORMAL_MAX_FRAME; i++) {
             this.game.roll(9);
             this.game.roll(0);
         }
