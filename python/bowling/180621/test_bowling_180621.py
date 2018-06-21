@@ -12,7 +12,7 @@ class BowlingGameTests(unittest.TestCase):
             self.game.addScore(pins)
 
     def test_allStrike(self):
-        self.rollMany(12, 10)
+        self.rollMany(12, self.game.MAX_SCORE_IN_FRAME)
         self.assertEqual(300, self.game.totalScore())
 
     def test_allSpare(self):
@@ -20,7 +20,7 @@ class BowlingGameTests(unittest.TestCase):
         self.assertEqual(150, self.game.totalScore())
 
     def test_allNines(self):
-        for frame in range(10):
+        for frame in range(self.game.NORMAL_MAX_FRAME):
             self.game.addScore(9)
             self.game.addScore(0)
         self.assertEqual(90, self.game.totalScore())
