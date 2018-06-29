@@ -1,7 +1,7 @@
 var expect = require("chai").expect;
 var Bowling = require("./bowling_180623");
 
-describe("Bowling Test", function () {
+describe("Bowling Test 18/06/23", function () {
 
     Bowling.prototype.rollMany = function (times, pins) {
         for (let i = 0; i < times; i++) {
