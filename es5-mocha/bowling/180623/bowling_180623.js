@@ -1,4 +1,4 @@
-// "use strict";
+"use strict";
 
 function bowling() {
     this.rolls = [];
@@ -8,7 +8,7 @@ bowling.prototype.roll = function(pins) {
     this.rolls.push(pins);
 };
 
-bowling.prototype.score = function(pins) {
+bowling.prototype.score = function() {
     var score = 0;
     var rollIndex = 0;
 
