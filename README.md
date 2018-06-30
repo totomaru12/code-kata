@@ -12,17 +12,16 @@ This project uses the under tools.
 - vscode
 - markdownlint (vscode extension)
 
-## practice order  
-```
-bash
-csharp
-es5
-es6
-go
-java
-perl
-php
-python
-ruby
-typescript
-```
+## practice order
+
+1. bash
+1. C#
+1. es5 (ECMAScript)
+1. es6 (ECMAScript)
+1. go
+1. java
+1. perl
+1. php
+1. python
+1. ruby
+1. typescript
