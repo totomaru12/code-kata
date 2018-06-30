@@ -6,20 +6,15 @@
 - goenv -v goenv 1.0.0
 - goenv version 1.10.3
 
-## setup
-
-```
-```
-
 ## test
 
-```
+```terminal
 $ go test -v ./...
 ```
 
 ## setup (initial)
 
-```
+```terminal
 $ brew install goenv
 
 $ vi ~/.bash_profile
