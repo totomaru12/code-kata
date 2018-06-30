@@ -1,13 +1,18 @@
-# environment
+# js-es5-mocha-kata
+
+## environment
+
 - node v9.11.1
 - macOS 10.x
 
-# setup
-```
+## setup
+
+```terminal
 $ npm install
 ```
 
-# test
-```
+## test
+
+```terminal
 $ npm test
 ```

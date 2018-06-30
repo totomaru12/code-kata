@@ -1,19 +1,25 @@
-# environment
+# php-kata
+
+## environment
+
 - macOS 10.x
 - php --version > PHP 7.1.14
 
-# setup
-```
+## setup
+
+```terminal
 $ composer install
 ```
 
-# test
-```
+## test
+
+```terminal
 $ ./vendor/bin/kahlan --reporter=verbose
 ```
 
-# setup (initial)
-```
+## setup (initial)
+
+```terminal
 $ curl -sS https://getcomposer.org/installer | php
 $ mv composer.phar /usr/local/bin/composer
 
