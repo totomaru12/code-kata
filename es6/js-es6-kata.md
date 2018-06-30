@@ -1,20 +1,26 @@
-# environment
+# js-es6-kata
+
+## environment
+
 - node v9.11.1
 - macOS 10.x
 
-# setup
-```
+## setup
+
+```terminal
 $ npm install
 $ npm install -g babel-cli
 (-g babel-cli needed by babel-node)
 ```
 
-# test
-```
+## test
+
+```terminal
 $ npm test
 ```
 
-# run code
-```
+## run code
+
+```terminal
 $ babel-node <source file name>
 ```

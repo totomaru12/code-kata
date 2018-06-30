@@ -1,15 +1,20 @@
-# setup
-```
+# ruby-kata
+
+## setup
+
+```terminal
 $ bundle install
 ```
 
-# test
-```
+## test
+
+```terminal
 $ rspec -f d
 ```
 
-# memo
-```
+## memo
+
+```terminal
 $ bundle init
 $ bundle install
 # gem install rspec
