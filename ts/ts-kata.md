@@ -2,7 +2,6 @@
 
 ## environment
 
-- macOS 10.x
 - tsc -v Version 2.9.2
 
 ## setup

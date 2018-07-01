@@ -2,7 +2,6 @@
 
 ## environment
 
-- macOS 10.x
 - perl -v v5.18.2
 
 ## setup
