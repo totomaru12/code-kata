@@ -1,4 +1,4 @@
-# bash-kata
+# bash-kata
 
 ## setup (assert)
 

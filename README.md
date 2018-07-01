@@ -5,12 +5,20 @@
 This repo is for personal coding kata practice.  
 <https://codingdojo.org/kata/>
 
-## tools
+## practice common environment
+
+- macOS 10.13.x
+
+Each language specific environment description is in each directories.
+
+## common tools
 
 This project uses the under tools.
 
 - vscode
 - markdownlint (vscode extension)
+
+Each language specific tools description is in each directories.
 
 ## practice order
 

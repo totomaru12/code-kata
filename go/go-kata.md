@@ -2,7 +2,6 @@
 
 ## environment
 
-- macOS 10.x
 - goenv -v goenv 1.0.0
 - goenv version 1.10.3
 

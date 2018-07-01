@@ -2,7 +2,6 @@
 
 ## environment
 
-- macOS 10.x
 - php --version > PHP 7.1.14
 
 ## setup

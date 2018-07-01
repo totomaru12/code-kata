@@ -1,8 +1,7 @@
-# go-code-practice
+# C#-code-practice
 
 ## environment
 
-- macOS 10.x
 - dotnet --version 2.1.200
 
 ## test
@@ -15,7 +14,7 @@ $ dotnet test
 If ```$ dotnet test``` executes on the top directory, the under message prints on terminal.  
 
 ```text
-Unable to find tests for ... cs-kata.dll. Make sure test project has a nuget reference of package "Microsoft.NET.Test.Sdk" and framework version settings are appropriate. 
+Unable to find tests for ... cs-kata.dll. Make sure test project has a nuget reference of package "Microsoft.NET.Test.Sdk" and framework version settings are appropriate.
 ```
 
 So make sure to change directory into the test directory.
