@@ -18,14 +18,18 @@ cmake version 3.11.4
 
 ```terminal
 $ make
+```
+
 or
+
+```terminal
 $ make test
 ```
 
 ## when add new source file
 
 It needs to add new source and test source file path at ```add_library``` and ```add_executable``` in ```./test/CMakeLists.txt```.  
-The insertion points have comment like ```add new source file the above line```
+The insertion points have comment like ```add new source file on the above line```
 
 ## setup (initial)
 
