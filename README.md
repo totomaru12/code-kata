@@ -2,7 +2,7 @@
 
 ## summary
 
-This repo is for personal coding kata practice.
+This repo is for personal coding kata practice.  
 <https://codingdojo.org/kata/>
 
 ## tools
