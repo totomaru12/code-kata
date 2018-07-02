@@ -7,12 +7,14 @@ add_subdirectory(lib/googletest/googletest)
 add_library(cpp-code-practice 
     ../Bowling180701.cpp 
     ../FizzBuzz180701.cpp
+    ../Bowling180702.cpp 
 # add new source file on the above line
 )
 
 add_executable(cpp-code-practice-test 
     Bowling180701Test.cpp 
     FizzBuzz180701Test.cpp
+    Bowling180702Test.cpp 
 # add new test source file on the above line
 )
 
