@@ -23,7 +23,7 @@ Each language specific tools description is in each directories.
 ## practice order
 
 1. bash
-1. cpp
+1. c++
 1. C#
 1. es5 (ECMAScript)
 1. es6 (ECMAScript)
@@ -34,4 +34,5 @@ Each language specific tools description is in each directories.
 1. php
 1. python
 1. ruby
+1. swift
 1. typescript
