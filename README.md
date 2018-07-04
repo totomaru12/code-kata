@@ -34,5 +34,6 @@ Each language specific tools description is in each directories.
 1. php
 1. python
 1. ruby
+1. scala
 1. swift
 1. typescript
