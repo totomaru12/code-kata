@@ -3,7 +3,7 @@
 ## test
 
 ```terminal
-$ cd ./kata-name/yymmdd
+$ cd ./yymmdd_kata-name
 $ python -m unittest discover -v
 ```
 
