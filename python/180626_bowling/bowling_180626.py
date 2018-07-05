@@ -22,7 +22,7 @@ class BowlingGame:
             else:
                 score += self.rolls[rollIndex] + self.rolls[rollIndex + 1]
                 rollIndex += 2
-        return score;
+        return score
     
     def isStrike(self, rollIndex):
         return self.MAX_SCORE_IN_FRAME == self.rolls[rollIndex]
