@@ -18,3 +18,14 @@ $ gradle init --type java-application
 ```terminal
 $ ./gradlew build
 ```
+
+## run
+
+```terminal
+$ ./gradlew run
+```
+
+## vscode extension
+
+- Language Support for Java(TM) by Red Hat
+- Debugger for Java
