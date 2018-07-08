@@ -1,13 +1,11 @@
-package Bowling180702
+package Bowling180708
 
-class Bowling180702 {
+class Bowling180708 {
 
-    val rolls = IntArray(21) { 0 }
-    var currentRoll = 0
+    val rolls: MutableList<Int> = mutableListOf()
 
     fun roll(pins: Int) {
-        rolls[currentRoll] = pins
-        currentRoll ++
+        rolls.add(pins)
     }
 
     val score : Int
@@ -25,14 +23,14 @@ class Bowling180702 {
                         rollIndex += 2
                     }
                     else -> {
-                        score += scoreNormalframe(rollIndex)
+                        score += scoreNormal(rollIndex)
                         rollIndex += 2
                     }
                 }
             }
             return score
         }
-    
+
     private fun isStrike(rollIndex: Int)
         = (10 == rolls[rollIndex])
 
@@ -45,7 +43,6 @@ class Bowling180702 {
     private fun scoreSpare(rollIndex: Int)
         = 10 + rolls[rollIndex + 2]
 
-    private fun scoreNormalframe(rollIndex: Int)
+    private fun scoreNormal(rollIndex: Int)
         = rolls[rollIndex] + rolls[rollIndex + 1]
-
 }
