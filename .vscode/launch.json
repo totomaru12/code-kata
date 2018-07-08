@@ -1,0 +1,43 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "cwd": "${fileDirname}",
+        },
+        {
+            "type": "java",
+            "name": "Java Debug",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/java/",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Attach)",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": 0
+        },
+        {
+            "name": "Perl Debug",
+            "type": "perl",
+            "request": "launch",
+            "exec": "perl",
+            "execArgs": [],
+            "root": "${workspaceRoot}/perl",
+            "inc": [
+                "${workspaceRoot}/perl"
+            ], // needed aditonal perl5 lib path
+            "program": "${workspaceRoot}/perl/test.pl",
+            "args": [],
+            "stopOnEntry": true
+        }
+    ]
+}
