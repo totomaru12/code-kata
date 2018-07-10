@@ -28,3 +28,8 @@ Composer version 1.6.5 2018-05-04 11:44:59
 
 $ composer require --dev kahlan/kahlan
 ```
+
+## vscode extension
+
+- PHP Debug
+- PHP IntelliSense
