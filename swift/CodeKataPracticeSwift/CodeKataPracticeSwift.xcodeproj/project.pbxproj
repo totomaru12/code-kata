@@ -16,6 +16,8 @@
 		8226A54920EB98680019E402 /* Bowling180703.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8226A54820EB98680019E402 /* Bowling180703.swift */; };
 		8226A54B20EB9AD30019E402 /* Bowling180703Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8226A54A20EB9AD30019E402 /* Bowling180703Tests.swift */; };
 		8226A54C20EB9DF80019E402 /* Bowling180703.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8226A54820EB98680019E402 /* Bowling180703.swift */; };
+		82FC94BA20F987F800CB2F3D /* Bowling180713.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FC94B920F987F800CB2F3D /* Bowling180713.swift */; };
+		82FC94BC20F9881E00CB2F3D /* Bowling180713Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FC94BB20F9881E00CB2F3D /* Bowling180713Tests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +43,8 @@
 		8226A53120EB93F40019E402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8226A54820EB98680019E402 /* Bowling180703.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bowling180703.swift; sourceTree = "<group>"; };
 		8226A54A20EB9AD30019E402 /* Bowling180703Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bowling180703Tests.swift; sourceTree = "<group>"; };
+		82FC94B920F987F800CB2F3D /* Bowling180713.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bowling180713.swift; sourceTree = "<group>"; };
+		82FC94BB20F9881E00CB2F3D /* Bowling180713Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bowling180713Tests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,7 @@
 				8226A52320EB93F40019E402 /* LaunchScreen.storyboard */,
 				8226A52620EB93F40019E402 /* Info.plist */,
 				8226A54820EB98680019E402 /* Bowling180703.swift */,
+				82FC94B920F987F800CB2F3D /* Bowling180713.swift */,
 			);
 			path = CodeKataPracticeSwift;
 			sourceTree = "<group>";
@@ -98,6 +103,7 @@
 			children = (
 				8226A52F20EB93F40019E402 /* CodeKataPracticeSwiftTests.swift */,
 				8226A54A20EB9AD30019E402 /* Bowling180703Tests.swift */,
+				82FC94BB20F9881E00CB2F3D /* Bowling180713Tests.swift */,
 				8226A53120EB93F40019E402 /* Info.plist */,
 			);
 			path = CodeKataPracticeSwiftTests;
@@ -204,6 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82FC94BA20F987F800CB2F3D /* Bowling180713.swift in Sources */,
 				8226A54920EB98680019E402 /* Bowling180703.swift in Sources */,
 				8226A51D20EB93F10019E402 /* ViewController.swift in Sources */,
 				8226A51B20EB93F10019E402 /* AppDelegate.swift in Sources */,
@@ -214,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82FC94BC20F9881E00CB2F3D /* Bowling180713Tests.swift in Sources */,
 				8226A54C20EB9DF80019E402 /* Bowling180703.swift in Sources */,
 				8226A53020EB93F40019E402 /* CodeKataPracticeSwiftTests.swift in Sources */,
 				8226A54B20EB9AD30019E402 /* Bowling180703Tests.swift in Sources */,
