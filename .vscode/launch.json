@@ -12,6 +12,24 @@
             "internalConsoleOptions": "openOnSessionStart"
         },
         {
+            "type": "node",
+            "request": "launch",
+            "name": "TS: mocha current file mocha",
+            "program": "${workspaceRoot}/ts/node_modules/mocha/bin/_mocha",
+            "args": [
+              "--ui",
+              "tdd",
+              "--timeout",
+              "60000",
+              "--colors",
+              "--require",
+              "ts-node/register",
+              "${file}"
+            ],
+            "cwd": "${fileDirname}",
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
             "name": "Python: Current File",
             "type": "python",
             "request": "launch",
