@@ -2,6 +2,16 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "node",
+            "request": "launch",
+            "name": "TS: Current File",
+            "protocol": "inspector",
+            "args": ["${file}"],
+            "cwd": "${fileDirname}",
+            "runtimeArgs": ["-r", "ts-node/register"],
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
             "name": "Python: Current File",
             "type": "python",
             "request": "launch",
