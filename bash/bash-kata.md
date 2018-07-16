@@ -19,17 +19,30 @@ Install the under test framework
 ## test (in case of using assert)
 
 ```terminal
-$ cd ./xxx/yymmdd/
+$ cd ./yymmdd_xxx/
 $ ./test_*.sh
 ```
 
 ## test (in case of using bats)
 
 ```terminal
-$ cd ./xxx/yymmdd/
+$ cd ./yymmdd_xxx/
 $ bats test_*.bats
+```
+
+## test (all bats tests)
+
+```terminal
+$ ./bats_test_all.sh
 ```
 
 ## environment
 
 - macOS 10.x
+
+## vscode debugger setting
+
+```terminal
+$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null
+$ brew install bashdb
+```

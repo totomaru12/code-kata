@@ -1,5 +1,5 @@
 #!/bin/bash
-. ../../assert.sh
+. ../assert.sh
 . bowling_180610.sh
 
 # roll_many repeat_count pins1st pins2nd
