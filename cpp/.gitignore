@@ -1,2 +1,3 @@
 /test/lib/googletest/*
 /test/build/*
+/summary/build/*

@@ -45,6 +45,12 @@ $ cd test/lib/googletest/
 $ git clone https://github.com/google/googletest.git -b release-1.8.0
 ```
 
+## setup (cmake)
+
+- create CMakeLists.txt file
+- create Makeile
+- add build related files on .gitignore
+
 ## memo
 
 This practice's unit test uses "google test"  
