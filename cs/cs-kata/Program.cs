@@ -7,8 +7,8 @@ namespace cs_kata
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            Bowling180630 bowling = new Bowling180630();
-            Console.WriteLine(bowling.Score());
+
+            var bcsSummaryowling = new CsharpSummary();
         }
     }
 }
