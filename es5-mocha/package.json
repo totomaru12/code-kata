@@ -4,7 +4,7 @@
   "description": "",
   "main": "",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha ./*/*/test_*.js || exit 0"
+    "test": "./node_modules/mocha/bin/mocha ./**/test_*.js || exit 0"
   },
   "keywords": [],
   "author": "",
