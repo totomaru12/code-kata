@@ -2,6 +2,7 @@
 //
 // This source is based on the under page
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript
+
 console.log("Hello World");
 
 console.log('\n## Numbers"');
@@ -45,6 +46,24 @@ console.log(isFinite(-Infinity)); // false
 console.log(isFinite(NaN)); // false
 console.log(isFinite(1)); // true
 
-// TODO: Next: String
 console.log('\n== Strings');
 
+console.log('hello'.length);    // 5
+console.log('hello'.charAt(0)); // "h"
+console.log('hello, world'.replace('world', 'mars')); // "hello, mars"
+console.log('hello'.toUpperCase()); // "HELLO"
+
+
+console.log('\n== Other types');
+
+// null indicates a deliberate non-value
+// undefined indicates an uninitialized value
+
+// false, 0, empty strings (""), NaN, null, and undefined all become false.
+// All other values become true.
+
+console.log('You can perform this conversion explicitly using the Boolean() function');
+console.log(Boolean(''));   // false
+console.log(Boolean(234));  // true
+
+// TODO: the next is Variables
