@@ -12,6 +12,6 @@
     "mocha": "^5.2.0"
   },
   "scripts": {
-    "test": "mocha --compilers js:babel-register ./bowling/*/test*.js"
+    "test": "mocha --compilers js:babel-register ./1*/test*.js"
   }
 }
