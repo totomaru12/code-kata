@@ -8,7 +8,7 @@ var b *Bowling180721
 
 func TestAllStrikes(t *testing.T) {
 	b = new(Bowling180721)
-	for i := 0; i < MaxScoreInFrame; i++ {
+	for i := 0; i < NormalMaxFrame; i++ {
 		b.roll(MaxScoreInFrame)
 	}
 	b.roll(MaxScoreInFrame)
@@ -20,7 +20,7 @@ func TestAllStrikes(t *testing.T) {
 
 func TestAllSpares(t *testing.T) {
 	b = new(Bowling180721)
-	for i := 0; i < MaxScoreInFrame; i++ {
+	for i := 0; i < NormalMaxFrame; i++ {
 		b.roll(5)
 		b.roll(5)
 	}
@@ -32,7 +32,7 @@ func TestAllSpares(t *testing.T) {
 
 func TestAllNines(t *testing.T) {
 	b = new(Bowling180721)
-	for i := 0; i < MaxScoreInFrame; i++ {
+	for i := 0; i < NormalMaxFrame; i++ {
 		b.roll(9)
 		b.roll(0)
 	}
@@ -43,7 +43,7 @@ func TestAllNines(t *testing.T) {
 
 func TestAllSparesWith1stNines(t *testing.T) {
 	b = new(Bowling180721)
-	for i := 0; i < MaxScoreInFrame; i++ {
+	for i := 0; i < NormalMaxFrame; i++ {
 		b.roll(9)
 		b.roll(1)
 	}
