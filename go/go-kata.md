@@ -12,6 +12,12 @@ $ go test ./1*
 $ go test -v ./...
 ```
 
+## run
+
+```terminal
+$ go run <go source file>
+```
+
 ## setup (initial)
 
 ```terminal
