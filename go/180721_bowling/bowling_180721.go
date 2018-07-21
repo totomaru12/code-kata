@@ -22,7 +22,7 @@ func (b *Bowling180721) roll(pins int) {
 func (b *Bowling180721) score() int {
 	var score = 0
 	var rollIndex = 0
-	for frame := 0; frame < MaxScoreInFrame; frame++ {
+	for frame := 0; frame < NormalMaxFrame; frame++ {
 		if b.isStrike(rollIndex) {
 			score += b.scoreStrike(rollIndex)
 			rollIndex++
@@ -38,19 +38,19 @@ func (b *Bowling180721) score() int {
 }
 
 func (b Bowling180721) isStrike(rollIndex int) bool {
-	return NormalMaxFrame == b.rolls[rollIndex]
+	return MaxScoreInFrame == b.rolls[rollIndex]
 }
 
 func (b Bowling180721) isSpare(rollIndex int) bool {
-	return NormalMaxFrame == (b.rolls[rollIndex] + b.rolls[rollIndex+1])
+	return MaxScoreInFrame == (b.rolls[rollIndex] + b.rolls[rollIndex+1])
 }
 
 func (b Bowling180721) scoreStrike(rollIndex int) int {
-	return NormalMaxFrame + b.rolls[rollIndex+1] + b.rolls[rollIndex+2]
+	return MaxScoreInFrame + b.rolls[rollIndex+1] + b.rolls[rollIndex+2]
 }
 
 func (b Bowling180721) scoreSpare(rollIndex int) int {
-	return NormalMaxFrame + b.rolls[rollIndex+2]
+	return MaxScoreInFrame + b.rolls[rollIndex+2]
 }
 
 func (b Bowling180721) scoreNormal(rollIndex int) int {
