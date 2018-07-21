@@ -8,6 +8,7 @@
 ## test
 
 ```terminal
+$ go test ./1*
 $ go test -v ./...
 ```
 
