@@ -7,6 +7,8 @@ import java.io.File;
 public class CodeKata {
     public static void main(String[] args) {
         System.out.println("CodeKata");
+        JavaSummary summary = new JavaSummary();
+        summary.summaryMain();
     }
 
     public static void printCurrentPath() {
