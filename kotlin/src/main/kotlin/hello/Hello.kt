@@ -2,6 +2,7 @@ package hello
 
 fun main(args: Array<String>) {
     println(hello("kotlin"))
+    summary()
 }
 
 val hello: (String) -> String = {
@@ -13,4 +14,12 @@ val hello: (String) -> String = {
         else -> it[0].toUpperCase() + it.substring(1)
     }).toString()
     words.joinToString(separator = ", ").plus("!!")
+}
+
+
+// This summary is based on the under page.
+// https://kotlinlang.org/docs/reference/basic-syntax.html
+
+val summary = {
+    println("hello kotlin")
 }
