@@ -1,3 +1,9 @@
+# This source code uses the below page as reference.
+# https://www.tutorialspoint.com/perl/perl_quick_guide.htm
+
+# Input the below command to execute this perl script
+# $ perl perl_example.pl
+
 use strict;
 use warnings;
 
@@ -25,6 +31,37 @@ print "\$hash{'orange'} = $hash{'orange'}\n";   # $hash{'orange'} = 300
 $hash{'orange'} = 50;
 print "\$hash{'orange'} = $hash{'orange'}\n";   # $hash{'orange'} = 50
 
+# variable context
+my @books = ( 'C', 'C++', 'JAVA' );
+my @books_copy = @books;
+my $book_size = @books;
+print "@books_copy\n";  # C C++ JAVA
+print "$book_size\n";  # 3
+
+# scalar operations
+my $str= "this" . " " . "is";
+print "$str\n";  # this is
+my $num = 1 + 2;
+
+my $mix = $str . " " . $num; # this is 3
+print "$mix\n";
+
+my $mix2 = $num . " " .$str; # 3 this is
+print "$mix2\n";
+
+# Multiline Strings
+my $multiline_string = 'This is
+ a multiline
+   string';
+print "$multiline_string\n";
+# This is
+#  a multiline
+#    string
 
 
+# Special Leterals
 
+print __FILE__ . " : " . __LINE__ . " : " . __PACKAGE__ . "\n";
+# perl_example.pl : 64 : main
+
+# Arrays (Next)
