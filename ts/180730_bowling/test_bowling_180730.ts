@@ -14,7 +14,7 @@ describe('180730 bowling test', () => {
     expect(b.score()).equal(300);
   });
 
-  it ('all spares with 5 pins', () => {
+  it ('all spares with 5', () => {
     let b = new Bowling();
     for (let i = 0; i < Bowling.NORMAL_FRAME_MAX; i++) {
       b.roll(5);
@@ -24,7 +24,7 @@ describe('180730 bowling test', () => {
     expect(b.score()).equal(150);
   })
 
-  it ('all nine and zero pairs', () => {
+  it ('all 9 and 0 pairs', () => {
     let b = new Bowling();
     for (let i = 0; i < Bowling.NORMAL_FRAME_MAX; i++) {
       b.roll(9);
@@ -33,7 +33,7 @@ describe('180730 bowling test', () => {
     expect(b.score()).equal(90);
   });
 
-  it ('all spares with 9 and 0 pairs', () => {
+  it ('all spares with 9 and 1 pairs', () => {
     let b = new Bowling();
     for (let i = 0; i < Bowling.NORMAL_FRAME_MAX; i++) {
       b.roll(9);
