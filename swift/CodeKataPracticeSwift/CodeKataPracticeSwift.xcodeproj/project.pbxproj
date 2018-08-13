@@ -18,6 +18,8 @@
 		8226A54920EB98680019E402 /* Bowling180703.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8226A54820EB98680019E402 /* Bowling180703.swift */; };
 		8226A54B20EB9AD30019E402 /* Bowling180703Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8226A54A20EB9AD30019E402 /* Bowling180703Tests.swift */; };
 		8226A54C20EB9DF80019E402 /* Bowling180703.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8226A54820EB98680019E402 /* Bowling180703.swift */; };
+		824ED023212136870038C430 /* Bowlig180813.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824ED022212136870038C430 /* Bowlig180813.swift */; };
+		824ED025212136BC0038C430 /* Bowling180813Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824ED024212136BC0038C430 /* Bowling180813Tests.swift */; };
 		8279BB31210DC4C900AEF6B7 /* Bowling180729.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8279BB30210DC4C900AEF6B7 /* Bowling180729.swift */; };
 		8279BB33210DC4EB00AEF6B7 /* Bowling180729Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8279BB32210DC4EB00AEF6B7 /* Bowling180729Tests.swift */; };
 		82FC94BA20F987F800CB2F3D /* Bowling180713.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FC94B920F987F800CB2F3D /* Bowling180713.swift */; };
@@ -49,6 +51,8 @@
 		8226A53120EB93F40019E402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8226A54820EB98680019E402 /* Bowling180703.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bowling180703.swift; sourceTree = "<group>"; };
 		8226A54A20EB9AD30019E402 /* Bowling180703Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bowling180703Tests.swift; sourceTree = "<group>"; };
+		824ED022212136870038C430 /* Bowlig180813.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bowlig180813.swift; sourceTree = "<group>"; };
+		824ED024212136BC0038C430 /* Bowling180813Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bowling180813Tests.swift; sourceTree = "<group>"; };
 		8279BB30210DC4C900AEF6B7 /* Bowling180729.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bowling180729.swift; sourceTree = "<group>"; };
 		8279BB32210DC4EB00AEF6B7 /* Bowling180729Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bowling180729Tests.swift; sourceTree = "<group>"; };
 		82FC94B920F987F800CB2F3D /* Bowling180713.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bowling180713.swift; sourceTree = "<group>"; };
@@ -104,6 +108,7 @@
 				82FC94B920F987F800CB2F3D /* Bowling180713.swift */,
 				8279BB30210DC4C900AEF6B7 /* Bowling180729.swift */,
 				8226432020F9F27700F4656C /* SwiftGrammarPractice.swift */,
+				824ED022212136870038C430 /* Bowlig180813.swift */,
 			);
 			path = CodeKataPracticeSwift;
 			sourceTree = "<group>";
@@ -117,6 +122,7 @@
 				8279BB32210DC4EB00AEF6B7 /* Bowling180729Tests.swift */,
 				8226A53120EB93F40019E402 /* Info.plist */,
 				8226432420F9F55D00F4656C /* SwiftGrammarPracticeTests.swift */,
+				824ED024212136BC0038C430 /* Bowling180813Tests.swift */,
 			);
 			path = CodeKataPracticeSwiftTests;
 			sourceTree = "<group>";
@@ -227,6 +233,7 @@
 				8226A51D20EB93F10019E402 /* ViewController.swift in Sources */,
 				8279BB31210DC4C900AEF6B7 /* Bowling180729.swift in Sources */,
 				8226A51B20EB93F10019E402 /* AppDelegate.swift in Sources */,
+				824ED023212136870038C430 /* Bowlig180813.swift in Sources */,
 				8226432120F9F27700F4656C /* SwiftGrammarPractice.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				82FC94BC20F9881E00CB2F3D /* Bowling180713Tests.swift in Sources */,
+				824ED025212136BC0038C430 /* Bowling180813Tests.swift in Sources */,
 				8226432520F9F55D00F4656C /* SwiftGrammarPracticeTests.swift in Sources */,
 				8226A54C20EB9DF80019E402 /* Bowling180703.swift in Sources */,
 				8226A53020EB93F40019E402 /* CodeKataPracticeSwiftTests.swift in Sources */,
