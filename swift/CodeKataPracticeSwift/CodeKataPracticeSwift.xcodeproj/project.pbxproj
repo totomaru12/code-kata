@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82205EB22134FB7C005BE136 /* Bowling180828.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82205EB12134FB7C005BE136 /* Bowling180828.swift */; };
+		82205EB42134FBFD005BE136 /* Bowling180828Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82205EB32134FBFD005BE136 /* Bowling180828Tests.swift */; };
 		8226432120F9F27700F4656C /* SwiftGrammarPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8226432020F9F27700F4656C /* SwiftGrammarPractice.swift */; };
 		8226432520F9F55D00F4656C /* SwiftGrammarPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8226432420F9F55D00F4656C /* SwiftGrammarPracticeTests.swift */; };
 		8226A51B20EB93F10019E402 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8226A51A20EB93F10019E402 /* AppDelegate.swift */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		82205EB12134FB7C005BE136 /* Bowling180828.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bowling180828.swift; sourceTree = "<group>"; };
+		82205EB32134FBFD005BE136 /* Bowling180828Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bowling180828Tests.swift; sourceTree = "<group>"; };
 		8226432020F9F27700F4656C /* SwiftGrammarPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGrammarPractice.swift; sourceTree = "<group>"; };
 		8226432420F9F55D00F4656C /* SwiftGrammarPracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGrammarPracticeTests.swift; sourceTree = "<group>"; };
 		8226A51720EB93F10019E402 /* CodeKataPracticeSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeKataPracticeSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -109,6 +113,7 @@
 				8279BB30210DC4C900AEF6B7 /* Bowling180729.swift */,
 				8226432020F9F27700F4656C /* SwiftGrammarPractice.swift */,
 				824ED022212136870038C430 /* Bowlig180813.swift */,
+				82205EB12134FB7C005BE136 /* Bowling180828.swift */,
 			);
 			path = CodeKataPracticeSwift;
 			sourceTree = "<group>";
@@ -123,6 +128,7 @@
 				8226A53120EB93F40019E402 /* Info.plist */,
 				8226432420F9F55D00F4656C /* SwiftGrammarPracticeTests.swift */,
 				824ED024212136BC0038C430 /* Bowling180813Tests.swift */,
+				82205EB32134FBFD005BE136 /* Bowling180828Tests.swift */,
 			);
 			path = CodeKataPracticeSwiftTests;
 			sourceTree = "<group>";
@@ -231,6 +237,7 @@
 				82FC94BA20F987F800CB2F3D /* Bowling180713.swift in Sources */,
 				8226A54920EB98680019E402 /* Bowling180703.swift in Sources */,
 				8226A51D20EB93F10019E402 /* ViewController.swift in Sources */,
+				82205EB22134FB7C005BE136 /* Bowling180828.swift in Sources */,
 				8279BB31210DC4C900AEF6B7 /* Bowling180729.swift in Sources */,
 				8226A51B20EB93F10019E402 /* AppDelegate.swift in Sources */,
 				824ED023212136870038C430 /* Bowlig180813.swift in Sources */,
@@ -245,6 +252,7 @@
 				82FC94BC20F9881E00CB2F3D /* Bowling180713Tests.swift in Sources */,
 				824ED025212136BC0038C430 /* Bowling180813Tests.swift in Sources */,
 				8226432520F9F55D00F4656C /* SwiftGrammarPracticeTests.swift in Sources */,
+				82205EB42134FBFD005BE136 /* Bowling180828Tests.swift in Sources */,
 				8226A54C20EB9DF80019E402 /* Bowling180703.swift in Sources */,
 				8226A53020EB93F40019E402 /* CodeKataPracticeSwiftTests.swift in Sources */,
 				8226A54B20EB9AD30019E402 /* Bowling180703Tests.swift in Sources */,
