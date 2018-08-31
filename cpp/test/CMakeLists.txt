@@ -11,6 +11,7 @@ add_library(cpp-code-practice
     ../Bowling180717.cpp
     ../Bowling180801.cpp
     ../Bowling180816.cpp
+    ../Bowling180831.cpp
 # add new source file on the above line
 )
 
@@ -21,6 +22,7 @@ add_executable(cpp-code-practice-test
     Bowling180717Test.cpp 
     Bowling180801Test.cpp 
     Bowling180816Test.cpp 
+    Bowling180831Test.cpp 
 # add new test source file on the above line
 )
 
