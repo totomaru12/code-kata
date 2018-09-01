@@ -34,5 +34,15 @@ namespace cs_kata.tests
             b.Roll(9);
             Assert.Equal(190, b.Score());
         }
+
+        [Fact]
+        public void AllFramesWith8And1()
+        {
+            for (int frame = 0; frame < Bowling180901.NORMAL_FRAME_MAX; frame++) {
+                b.Roll(8);
+                b.Roll(1);
+            }
+            Assert.Equal(90, b.Score());
+        }
     }
 }
