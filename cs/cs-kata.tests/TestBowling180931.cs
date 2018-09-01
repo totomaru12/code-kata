@@ -16,12 +16,13 @@ namespace cs_kata.tests
         [Fact]
         public void AllStrike()
         {
-            for (int frame = 0; frame < 10; frame ++) {
-                b.Roll(10);
+            for (int frame = 0; frame < Bowling180901.NORMAL_FRAME_MAX; frame ++) {
+                b.Roll(Bowling180901.SCORE_MAX_IN_FRAME);
             }
-            b.Roll(10);
-            b.Roll(10);
+            b.Roll(Bowling180901.SCORE_MAX_IN_FRAME);
+            b.Roll(Bowling180901.SCORE_MAX_IN_FRAME);
             Assert.Equal(300, b.Score());
         }
+
     }
 }
