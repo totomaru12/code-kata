@@ -26,4 +26,12 @@ describe("Bowling 18/09/02", function() {
         expect(b.score()).to.be.equal(190);
     })
 
+    it("all frames with 8 and 1", function() {
+        for (var i = 0; i < b.NORMAL_FRAME_MAX(); i++) {
+            b.roll(8);
+            b.roll(1);
+        }
+        expect(b.score()).to.be.equal(90);
+    })
+
 })
