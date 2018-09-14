@@ -20,6 +20,8 @@
 		8226A54920EB98680019E402 /* Bowling180703.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8226A54820EB98680019E402 /* Bowling180703.swift */; };
 		8226A54B20EB9AD30019E402 /* Bowling180703Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8226A54A20EB9AD30019E402 /* Bowling180703Tests.swift */; };
 		8226A54C20EB9DF80019E402 /* Bowling180703.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8226A54820EB98680019E402 /* Bowling180703.swift */; };
+		823E9BE0214B6B1F00F4054A /* Bowling180914.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823E9BDF214B6B1F00F4054A /* Bowling180914.swift */; };
+		823E9BE2214B6BDB00F4054A /* Bowling180914Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823E9BE1214B6BDB00F4054A /* Bowling180914Tests.swift */; };
 		824ED023212136870038C430 /* Bowlig180813.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824ED022212136870038C430 /* Bowlig180813.swift */; };
 		824ED025212136BC0038C430 /* Bowling180813Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824ED024212136BC0038C430 /* Bowling180813Tests.swift */; };
 		8279BB31210DC4C900AEF6B7 /* Bowling180729.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8279BB30210DC4C900AEF6B7 /* Bowling180729.swift */; };
@@ -55,6 +57,8 @@
 		8226A53120EB93F40019E402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8226A54820EB98680019E402 /* Bowling180703.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bowling180703.swift; sourceTree = "<group>"; };
 		8226A54A20EB9AD30019E402 /* Bowling180703Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bowling180703Tests.swift; sourceTree = "<group>"; };
+		823E9BDF214B6B1F00F4054A /* Bowling180914.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bowling180914.swift; sourceTree = "<group>"; };
+		823E9BE1214B6BDB00F4054A /* Bowling180914Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bowling180914Tests.swift; sourceTree = "<group>"; };
 		824ED022212136870038C430 /* Bowlig180813.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bowlig180813.swift; sourceTree = "<group>"; };
 		824ED024212136BC0038C430 /* Bowling180813Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bowling180813Tests.swift; sourceTree = "<group>"; };
 		8279BB30210DC4C900AEF6B7 /* Bowling180729.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bowling180729.swift; sourceTree = "<group>"; };
@@ -114,6 +118,7 @@
 				8226432020F9F27700F4656C /* SwiftGrammarPractice.swift */,
 				824ED022212136870038C430 /* Bowlig180813.swift */,
 				82205EB12134FB7C005BE136 /* Bowling180828.swift */,
+				823E9BDF214B6B1F00F4054A /* Bowling180914.swift */,
 			);
 			path = CodeKataPracticeSwift;
 			sourceTree = "<group>";
@@ -129,6 +134,7 @@
 				8226432420F9F55D00F4656C /* SwiftGrammarPracticeTests.swift */,
 				824ED024212136BC0038C430 /* Bowling180813Tests.swift */,
 				82205EB32134FBFD005BE136 /* Bowling180828Tests.swift */,
+				823E9BE1214B6BDB00F4054A /* Bowling180914Tests.swift */,
 			);
 			path = CodeKataPracticeSwiftTests;
 			sourceTree = "<group>";
@@ -242,6 +248,7 @@
 				8226A51B20EB93F10019E402 /* AppDelegate.swift in Sources */,
 				824ED023212136870038C430 /* Bowlig180813.swift in Sources */,
 				8226432120F9F27700F4656C /* SwiftGrammarPractice.swift in Sources */,
+				823E9BE0214B6B1F00F4054A /* Bowling180914.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +264,7 @@
 				8226A53020EB93F40019E402 /* CodeKataPracticeSwiftTests.swift in Sources */,
 				8226A54B20EB9AD30019E402 /* Bowling180703Tests.swift in Sources */,
 				8279BB33210DC4EB00AEF6B7 /* Bowling180729Tests.swift in Sources */,
+				823E9BE2214B6BDB00F4054A /* Bowling180914Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
