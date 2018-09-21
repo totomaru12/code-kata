@@ -16,12 +16,25 @@ namespace cs_kata.tests
         [Fact]
         public void AllStrikes()
         {
-            for (int frame = 0; frame < Bowling180921.NORMAL_FRAME_MAX; frame++) {
+            for (int frame = 0; frame < Bowling180921.NORMAL_FRAME_MAX; frame++) 
+            {
                 b.Roll(Bowling180921.SCORE_MAX_IN_FRAME);
             }
             b.Roll(Bowling180921.SCORE_MAX_IN_FRAME);
             b.Roll(Bowling180921.SCORE_MAX_IN_FRAME);
             Assert.Equal(300, b.Score());
+        }
+
+        [Fact]
+        public void AllSparesWith9And1()
+        {
+            for (int frame = 0; frame < Bowling180921.NORMAL_FRAME_MAX; frame++)
+            {
+                b.Roll(9);
+                b.Roll(1);
+            }
+            b.Roll(9);
+            Assert.Equal(190, b.Score());
         }
 
     }
