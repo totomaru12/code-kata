@@ -44,7 +44,7 @@ public class Bowling180921
 
     public int scoreStrike(int rollIndex)
     {
-        return SCORE_MAX_IN_FRAME + this.rolls[rollIndex] + this.rolls[rollIndex + 1];
+        return SCORE_MAX_IN_FRAME + this.rolls[rollIndex + 1] + this.rolls[rollIndex + 2];
     }
 
     public int scoreSpare(int rollIndex)
@@ -54,7 +54,7 @@ public class Bowling180921
 
     public int scoreNormal(int rollIndex)
     {
-        return this.rolls[rollIndex] + this.rolls[rollIndex];
+        return this.rolls[rollIndex] + this.rolls[rollIndex + 1];
     }
 
 }
