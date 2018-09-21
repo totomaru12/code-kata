@@ -2,6 +2,9 @@ using System.Collections.Generic;
 
 public class Bowling180921
 {
+    public static readonly int NORMAL_FRAME_MAX = 10;
+    public static readonly int SCORE_MAX_IN_FRAME = 10;
+    
     public void Roll(int pins)
     {
 
