@@ -32,4 +32,13 @@ describe('test bowling 18/09/25', () => {
         expect(b.score()).to.equal(90);
     })
 
+    it('all frames with 9 and 0', () => {
+        let b = new Bowling();
+        for (let i = 0; i < b.NORMAL_FRAME_MAX(); i++) {
+            b.roll(9);
+            b.roll(0);
+        }
+        expect(b.score()).to.equal(90);
+    })
+
 })
