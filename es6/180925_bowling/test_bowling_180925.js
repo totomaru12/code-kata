@@ -13,4 +13,14 @@ describe('test bowling 18/09/25', () => {
         expect(b.score()).to.equal(300);
     })
 
+    it('all spares with 9 and 1', () => {
+        let b = new Bowling();
+        for (let i = 0; i < b.NORMAL_FRAME_MAX(); i++) {
+            b.roll(9);
+            b.roll(1);
+        }
+        b.roll(9);
+        expect(b.score()).to.equal(190);
+    })
+
 })
