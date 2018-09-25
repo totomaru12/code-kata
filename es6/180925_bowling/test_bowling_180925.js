@@ -5,11 +5,11 @@ describe('test bowling 18/09/25', () => {
 
     it('all strikes', () => {
         let b = new Bowling();
-        for (let i = 0; i < 10; i++) {
-            b.roll(10);
+        for (let i = 0; i < b.NORMAL_FRAME_MAX(); i++) {
+            b.roll(b.SCORE_MAX_IN_FRAME());
         }
-        b.roll(10);
-        b.roll(10);
+        b.roll(b.SCORE_MAX_IN_FRAME());
+        b.roll(b.SCORE_MAX_IN_FRAME());
         expect(b.score()).to.equal(300);
     })
 
