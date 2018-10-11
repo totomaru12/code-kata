@@ -6,9 +6,7 @@ namespace cs_kata
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-
-            var bcsSummaryowling = new CsharpSummary();
+            Console.WriteLine("C# kata");
         }
     }
 }
