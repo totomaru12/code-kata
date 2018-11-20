@@ -14,5 +14,7 @@ done
 
 for i in ${dirary[@]}; do
     echo $i
-    python -m unittest discover -s "$i" -p "test_*.py" -v
+    cd $i
+    python -m unittest discover -p "test_*.py" -v
+    cd "../"
 done
