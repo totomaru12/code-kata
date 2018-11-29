@@ -42,7 +42,7 @@ repositories {
     jcenter()
 }
 
-mainClassName = 'hello.HelloKt'
+mainClassName = 'codeKata.CodeKataKt'
 
 test {
     testLogging {
