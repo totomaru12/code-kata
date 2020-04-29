@@ -8,8 +8,6 @@
 
 ```terminal
 $ npm install
-$ npm install -g babel-cli
-(-g babel-cli needed by babel-node)
 ```
 
 ## test
